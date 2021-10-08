@@ -4,12 +4,18 @@
 
 'git add <FILE>': adds <FILE> to the staging area
 'git commit': open a text eidtor to write commit message
-    - 'git commit -m "MESSAGE"': wrotes a MESSAGE as a commiet without a text editor
+    'git commit -m "MESSAGE"': wrotes a MESSAGE as a commiet without a text editor
 
 'git log': shows the log (history) of our commits
-    - 'git log --oneline': shows the shorter oneline commit
+    'git log --oneline': shows the shorter oneline commit
 
 'git diff': compare current unticmmeted state with teh last known git state
     'git diff --staged': runs git diff between the starging area and the last known state
 'git diff HEAD~<NUMBER>': compares the HEAD with the commit <NUMBER> ago (relative)
 'git diff <HASH>': compares the HEAD with the commit <HASH>
+
+'git restore --source <HASH OR HEAD~> <FILE>': restore file to <HASH OR HEAD~>
+    'git checkout <HASH OR HEAD~> <FILE>' restore file to <HASH OR HEAD>
+        'git checkout <HASH OR HEAD~>': if you forget the file, you end  up in the detached head state
+        'git checkout main': go back to the main
+        'get switch main': go back to main
