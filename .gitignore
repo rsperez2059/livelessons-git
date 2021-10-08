@@ -1,2 +1,2 @@
-ignore_file.pnd
-*.png
+ignore_fig.png
+output/*.png
