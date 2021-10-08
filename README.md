@@ -7,4 +7,3 @@
     - 'git commit -m "MESSAGE"': wrotes a MESSAGE as a commiet without a text editor
 'git log': shows the log (history) of our commits
     - 'git log --oneline': shows the shorter oneline commit
-    
