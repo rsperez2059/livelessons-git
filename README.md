@@ -48,4 +48,5 @@
 - 'git rebase <BRANCH>': incoprpate changes from <BRANCH> into current branch
 
 main commit 1
+main commit 2
 
