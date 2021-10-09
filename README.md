@@ -44,4 +44,5 @@
 
 - 'git merge <BRANCH>': merge <BRANCH> into your current branch
 - 'git rebase': command to change the history of a commit
-    - 'git rebase <BRANCH>': incoprpate changes from <BRANCH> into current branch
+    - Commits from 'git merge' can be autmatically combined
+- 'git rebase <BRANCH>': incoprpate changes from <BRANCH> into current branch
