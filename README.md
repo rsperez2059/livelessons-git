@@ -52,3 +52,4 @@
     - 'git rebase --abort': undo git rebase steps
 
 - main commit 1
+- main commit 2
