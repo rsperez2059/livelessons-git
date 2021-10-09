@@ -50,3 +50,5 @@
     - 'git add <FILE>': to mark conflict resolutions
     - 'git rebase --continue': move to next commit in rebase
     - 'git rebase --abort': undo git rebase steps
+
+- main commit 1
