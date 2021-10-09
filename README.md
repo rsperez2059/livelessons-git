@@ -25,3 +25,4 @@
 - 'git remote rm <NAME>': Removes the remote called <NAME>
 - 'git remote -v': look at all the remotes you have
 - 'git push <WHERE> <WHAT>': pushes the <WHAT> branch to the <WHERE>
+    - 'git push origin main
