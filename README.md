@@ -19,3 +19,9 @@
         - 'git checkout <HASH OR HEAD~>': if you forget the file, you end  up in the detached head state
         - 'git checkout main': go back to the main
         - 'get switch main': go back to main
+
+- 'git remote add <NAME> <URL>': adds the <URL> as a remote wth the same name <NAME>
+    - <NAME> is by convention called 'origin'
+- 'git remote rm <NAME>': Removes the remote called <NAME>
+- 'git remote -v': look at all the remotes you have
+- 'git push <WHERE> <WHAT>': pushes the <WHAT> branch to the <WHERE>
