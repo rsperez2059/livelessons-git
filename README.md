@@ -1,6 +1,7 @@
 # Git Notes
 
 ## Working with git locally
+
 - 'git init': initialize a current folder as the git repostiory
 - 'git clone <URL>': brings the git repo from <URL> to current folder
 - 'git status': tells is wjat we meed to know about our repository
@@ -23,7 +24,6 @@
         - 'git checkout main': go back to the main
         - 'get switch main': go back to main
 
-
 ## Working with remotes 
     
 - 'git remote add <NAME> <URL>': adds the <URL> as a remote wth the same name <NAME>
@@ -34,3 +34,10 @@
     - 'git push origin main
 - 'git pull <WHERE> <WHAT>': pulls the <WHAT> branch in <WHERE> to local computer
 
+## branches
+
+- 'git branch <NAME>': create branch <NAME> where you are (HEAD)
+- 'git switch <NAME>': move to the branch <NAME>
+    - 'git checkoug <NAME>': alod moves to the branch <NAME>
+- 'git swich -c <NAME>': create and move to the branch <NAME> in 1 command
+    - "git checkout -b <NAME>': also create and move to the branch <NAME> in 1 command
