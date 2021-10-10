@@ -53,3 +53,5 @@
 - 'git rebase -i <COMMIT>' 'HEAD~' or <HASH> of commit to go into interactive rebase
     - you can make multiple commit changes here, e.g., 'squash'/'s'
     - 'git rebase - <HASH>^': use ^ to include that commit in intractive rebase
+- 'git stash' or 'git commit': to save work before moving branches
+
