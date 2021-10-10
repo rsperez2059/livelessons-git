@@ -32,7 +32,7 @@
 - 'git remote -v': look at all the remotes you have
 - 'git push <WHERE> <WHAT>': pushes the <WHAT> branch to the <WHERE>
     - 'git push origin main
-- 'git pull <WHERE> <WHAT>': pulls the <WHAT> branch in <WHERE> to local computer
+- 'git pull <WHERE> <WHAT>': pulls the <WHAT> branch in <WHERE> to orig local computer
 
 ## Branches
 
@@ -58,3 +58,7 @@
     - 'git stash list': see your stashed commits
     - 'git stash apply': apply your last stashed commit
     - 'git stash clear': clear up your stashes
+
+- A 'merge' on the remote is called a "pull request" or a "merge request"
+    - 'git push <WHERE> <WHAT>'
+    - To update a PR, we make the changes to the branch locally and re-'push'
