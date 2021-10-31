@@ -68,3 +68,24 @@ A merge conflict can happen afer PR is issued.
     - 'git fetch --prune': update you log and also remove deleted remote branches
 - 'git push -f <WHAT> <WHERE>': forces a push to the remote <WHERE> the branch <WHAT>
     - 'git push --force with lease <WHERE> <WHAT>': more mindful of collaborators
+
+## Collaborators
+
+- Second person to push, needs to sync the history
+- Add collaborators in repository setting
+- Add collaborators will then 'git clone <URL>' to get repo in their computers
+- Each person's branch changes are independent
+- Feature branches won't show confilcts until one of them is merged first
+- In the setting you can setup branch protectionrules to prevent direct chagnes
+
+## Git Workflows
+
+- Adding a collaborator
+- Brancing workflow
+- Git Flow: a special type of branching workflow
+- Forking is commonly used in open source projects
+    - Fork: copy the original remote repo into your account
+    - 'origin': is your own remote copy
+    - 'upstream': is the original copy
+    - Follow branching workflow
+    
